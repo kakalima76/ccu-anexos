@@ -253,6 +253,7 @@ angular.module('app')
 		{tipo: 'ARTIGOS PARA TELEFONES', produto: 'Telefones Sem Fio'},
 		{tipo: 'ARTIGOS PARA TELEFONES', produto: 'Telefones Sem Fio C/ Ramal'},
 		{tipo: 'ARTIGOS PARA TELEFONES', produto: 'Outros utensílios art. para telefones'},
+		{tipo: 'ARTIGOS PARA TELEFONES', produto: 'Paul de Selfie'},
 		{tipo: 'BEBIDAS ALCÓOLICAS GARRAFA', produto: 'Cerveja Garrafa'},
 		{tipo: 'BEBIDAS ALCÓOLICAS GARRAFA', produto: 'Destilados'},
 		{tipo: 'BEBIDAS ALCÓOLICAS LATA', produto: 'Cerveja lata'},
@@ -607,7 +608,23 @@ angular.module('app')
 		{tipo: 'ARTIGOS DE TOUCADOR', produto: 'maquiagem'},
 		{tipo: 'ARTIGOS DIVERSOS', produto: 'quinquilharia'},
 		{tipo: 'ARTIGOS DIVERSOS', produto: 'livro usado'},
-		{tipo: 'ARTIGOS DIVERSOS', produto: 'peça de brechó'}
+		{tipo: 'ARTIGOS DIVERSOS', produto: 'peça de brechó'},
+		{tipo: 'PERECÍVEIS', produto: 'frutas kg'},
+		{tipo: 'PERECÍVEIS', produto: 'verduras kg'},
+		{tipo: 'PERECÍVEIS', produto: 'biscoitos kg'},
+		{tipo: 'PERECÍVEIS', produto: 'doces kg'},
+		{tipo: 'PERECÍVEIS', produto: 'sorvetes kg'},
+		{tipo: 'PERECÍVEIS', produto: 'pães kg'},
+		{tipo: 'PERECÍVEIS', produto: 'sorvetes'},
+		{tipo: 'PERECÍVEIS', produto: 'carne de churasco'},
+		{tipo: 'PERECÍVEIS', produto: 'queijo'},
+		{tipo: 'PERECÍVEIS', produto: 'outros perecíveis'},
+		{tipo: 'MIUDEZAS', produto: 'óculos'},
+		{tipo: 'MIUDEZAS', produto: 'carteira'},
+		{tipo: 'MIUDEZAS', produto: 'bolsa'},
+		{tipo: 'MIUDEZAS', produto: 'cinto'},
+		{tipo: 'MIUDEZAS', produto: 'pano de chão'},
+		{tipo: 'ISOPOR', produto: 'caixa de isopor'}
 		
 	]
 
@@ -639,7 +656,10 @@ angular.module('app')
 			{filtro:  'UTENSÍLIOS PARA CARROÇAS'},
 			{filtro:  'BEBIDAS ALCÓOLICAS GARRAFA'},
 			{filtro:  'BEBIDAS ALCÓOLICAS LATA'},
-			{filtro:  'BEBIDAS NÂO ALCÓOLICAS'}
+			{filtro:  'BEBIDAS NÂO ALCÓOLICAS'},
+			{filtro:  'PERECÍVEIS'},
+			{filtro:  'MIUDEZAS'},
+			{filtro:  'ISOPOR'}
 		]
 
 	var get = function(){
