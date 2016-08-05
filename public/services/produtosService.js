@@ -1,3 +1,4 @@
+
 angular.module('app')
 
 .service('produtosService', [function(){
@@ -253,7 +254,7 @@ angular.module('app')
 		{tipo: 'ARTIGOS PARA TELEFONES', produto: 'Telefones Sem Fio'},
 		{tipo: 'ARTIGOS PARA TELEFONES', produto: 'Telefones Sem Fio C/ Ramal'},
 		{tipo: 'ARTIGOS PARA TELEFONES', produto: 'Outros utensílios art. para telefones'},
-		{tipo: 'ARTIGOS PARA TELEFONES', produto: 'Paul de Selfie'},
+		{tipo: 'ARTIGOS PARA TELEFONES', produto: 'Pau de Selfie'},
 		{tipo: 'BEBIDAS ALCÓOLICAS GARRAFA', produto: 'Cerveja Garrafa'},
 		{tipo: 'BEBIDAS ALCÓOLICAS GARRAFA', produto: 'Destilados'},
 		{tipo: 'BEBIDAS ALCÓOLICAS LATA', produto: 'Cerveja lata'},
@@ -272,6 +273,9 @@ angular.module('app')
 		{tipo: 'UTENSÍLIOS PARA CARROÇAS', produto: 'Tapower'},
 		{tipo: 'UTENSÍLIOS PARA CARROÇAS', produto: 'Fogareiro'},
 		{tipo: 'UTENSÍLIOS PARA CARROÇAS', produto: 'outros utensílios carroça'},
+		{tipo: 'UTENSÍLIOS PARA CARROÇAS', produto: 'moenda'},
+		{tipo: 'UTENSÍLIOS PARA CARROÇAS', produto: 'tacho'},
+		{tipo: 'UTENSÍLIOS PARA CARROÇAS', produto: 'bancada'},
 		{tipo: 'ELÉTRICA E MANUTENÇÃO', produto: 'Adaptadores p/ Tomada'},
 		{tipo: 'ELÉTRICA E MANUTENÇÃO', produto: 'Benjamim'},
 		{tipo: 'ELÉTRICA E MANUTENÇÃO', produto: 'Cordões Prolongadores'},
@@ -594,11 +598,13 @@ angular.module('app')
 		{tipo: 'PEÇAS DE VESTUÁRIO', produto: 'Saia e vestido'},
 		{tipo: 'PEÇAS DE VESTUÁRIO', produto: 'Roupas íntimas'},
 		{tipo: 'PEÇAS DE VESTUÁRIO', produto: 'Outras peças de vestuário'},
+		{tipo: 'PEÇAS DE VESTUÁRIO', produto: 'Cangas'},
 		{tipo: 'VEÍCULO', produto: 'Kombi'},
 		{tipo: 'VEÍCULO', produto: 'Caminhão'},
 		{tipo: 'VEÍCULO', produto: 'Ônibus'},
 		{tipo: 'VEÍCULO', produto: 'Moto'},
 		{tipo: 'VEÍCULO', produto: 'Carro'},
+		{tipo: 'VEÍCULO', produto: 'outros veiculos'},
 		{tipo: 'ELETRODOMÉSTICO', produto: 'Micro-ondas'},
 		{tipo: 'ELETRODOMÉSTICO', produto: 'Fogão'},
 		{tipo: 'ELETRODOMÉSTICO', produto: 'Geladeira'},
@@ -623,13 +629,29 @@ angular.module('app')
 		{tipo: 'MIUDEZAS', produto: 'carteira'},
 		{tipo: 'MIUDEZAS', produto: 'bolsa'},
 		{tipo: 'MIUDEZAS', produto: 'cinto'},
+		{tipo: 'MIUDEZAS', produto: 'bandana'},
+		{tipo: 'MIUDEZAS', produto: 'bandeira'},
+		{tipo: 'MIUDEZAS', produto: 'chapéu'},
+		{tipo: 'MIUDEZAS', produto: 'balde'},
+		{tipo: 'MIUDEZAS', produto: 'brinquedo'},
+		{tipo: 'MIUDEZAS', produto: 'outras miudezas'},
 		{tipo: 'MIUDEZAS', produto: 'pano de chão'},
-		{tipo: 'ISOPOR', produto: 'caixa de isopor'}
+		{tipo: 'ISOPOR', produto: 'caixa de isopor'},
+		{tipo: 'ARTIGOS DE PRAIA', produto: 'queijo-coalho'},
+		{tipo: 'ARTIGOS DE PRAIA', produto: 'queimador'},
+		{tipo: 'ARTIGOS DE PRAIA', produto: 'camarão'},
+		{tipo: 'ARTIGOS DE PRAIA', produto: 'picolé'},
+		{tipo: 'ARTIGOS DE PRAIA', produto: 'espreguiçadeira'},
+		{tipo: 'ARTIGOS DE PRAIA', produto: 'cadeira-de-praia'},
+		{tipo: 'ARTIGOS DE PRAIA', produto: 'queijo-coalho'},
+		{tipo: 'ARTIGOS DE PRAIA', produto: 'guarda-sol'},
+		{tipo: 'ARTIGOS DE PRAIA', produto: 'outros produtos de praia'}
 		
 	]
 
 	var filtro = 
 		[
+			{filtro:  'ARTIGOS DE PRAIA'},
 			{filtro:  'ARTE E PINTURA'},
 			{filtro:  'ARTIGOS DE INFORMÁTICA'},
 			{filtro:  'ARTIGOS PARA APRESENTAÇÃO'},
